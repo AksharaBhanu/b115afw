@@ -8,7 +8,7 @@
       <![CDATA[Open Chrome Browser in Local System]]>
     </line>
     <line>
-      <![CDATA[Enter the URL:http://www.fb.com]]>
+      <![CDATA[Enter the URL:https://pos.aksharatraining.in/pos/public/#]]>
     </line>
     <line>
       <![CDATA[Maximize the browser]]>
@@ -20,21 +20,21 @@
       <![CDATA[Set ETO:7]]>
     </line>
     <line>
-      <![CDATA[Data from xl:admin]]>
-    </line>
-    <line>
-      <![CDATA[Facebook – log in or sign up]]>
+      <![CDATA[HomePage is Displayed]]>
     </line>
     <line>
       <![CDATA[Close the browser]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-12-03T19:58:22 IST" name="Default suite" finished-at="2024-12-03T19:58:27 IST" duration-ms="5067">
+  <suite started-at="2024-12-05T19:10:53 IST" name="Default suite" finished-at="2024-12-05T19:11:05 IST" duration-ms="12086">
     <groups>
+      <group name="login">
+        <method signature="ValidLogin.testValidLogin()[pri:1, instance:script.ValidLogin@128d2484]" name="testValidLogin" class="script.ValidLogin"/>
+      </group> <!-- login -->
     </groups>
-    <test started-at="2024-12-03T19:58:22 IST" name="Default test" finished-at="2024-12-03T19:58:27 IST" duration-ms="5067">
-      <class name="script.DemoTest1">
-        <test-method is-config="true" signature="preCondition(java.lang.String)[pri:0, instance:script.DemoTest1@128d2484]" started-at="2024-12-03T19:58:22 IST" name="preCondition" finished-at="2024-12-03T19:58:25 IST" duration-ms="3308" status="PASS">
+    <test started-at="2024-12-05T19:10:53 IST" name="Default test" finished-at="2024-12-05T19:11:05 IST" duration-ms="12086">
+      <class name="script.ValidLogin">
+        <test-method is-config="true" signature="preCondition(java.lang.String)[pri:0, instance:script.ValidLogin@128d2484]" started-at="2024-12-05T19:10:53 IST" name="preCondition" finished-at="2024-12-05T19:11:02 IST" duration-ms="8592" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -50,7 +50,7 @@
               <![CDATA[Open Chrome Browser in Local System]]>
             </line>
             <line>
-              <![CDATA[Enter the URL:http://www.fb.com]]>
+              <![CDATA[Enter the URL:https://pos.aksharatraining.in/pos/public/#]]>
             </line>
             <line>
               <![CDATA[Maximize the browser]]>
@@ -63,24 +63,21 @@
             </line>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method signature="testDemo1()[pri:0, instance:script.DemoTest1@128d2484]" started-at="2024-12-03T19:58:25 IST" name="testDemo1" finished-at="2024-12-03T19:58:26 IST" duration-ms="1349" status="PASS">
+        <test-method signature="testValidLogin()[pri:1, instance:script.ValidLogin@128d2484]" started-at="2024-12-05T19:11:02 IST" name="testValidLogin" finished-at="2024-12-05T19:11:04 IST" duration-ms="2841" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Data from xl:admin]]>
-            </line>
-            <line>
-              <![CDATA[Facebook – log in or sign up]]>
+              <![CDATA[HomePage is Displayed]]>
             </line>
           </reporter-output>
-        </test-method> <!-- testDemo1 -->
-        <test-method is-config="true" signature="postCondition()[pri:0, instance:script.DemoTest1@128d2484]" started-at="2024-12-03T19:58:26 IST" name="postCondition" finished-at="2024-12-03T19:58:27 IST" duration-ms="330" status="PASS">
+        </test-method> <!-- testValidLogin -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:script.ValidLogin@128d2484]" started-at="2024-12-05T19:11:04 IST" name="postCondition" finished-at="2024-12-05T19:11:05 IST" duration-ms="550" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Close the browser]]>
             </line>
           </reporter-output>
         </test-method> <!-- postCondition -->
-      </class> <!-- script.DemoTest1 -->
+      </class> <!-- script.ValidLogin -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
