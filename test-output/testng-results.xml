@@ -20,21 +20,21 @@
       <![CDATA[Set ETO:7]]>
     </line>
     <line>
-      <![CDATA[HomePage is Displayed]]>
+      <![CDATA[Error Message is Displayed:Invalid username and/or password.]]>
     </line>
     <line>
       <![CDATA[Close the browser]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-12-05T19:10:53 IST" name="Default suite" finished-at="2024-12-05T19:11:05 IST" duration-ms="12086">
+  <suite started-at="2024-12-05T19:35:05 IST" name="Default suite" finished-at="2024-12-05T19:35:13 IST" duration-ms="8628">
     <groups>
       <group name="login">
-        <method signature="ValidLogin.testValidLogin()[pri:1, instance:script.ValidLogin@128d2484]" name="testValidLogin" class="script.ValidLogin"/>
+        <method signature="InvalidLogin.testInvalidLogin()[pri:2, instance:script.InvalidLogin@f9d87b]" name="testInvalidLogin" class="script.InvalidLogin"/>
       </group> <!-- login -->
     </groups>
-    <test started-at="2024-12-05T19:10:53 IST" name="Default test" finished-at="2024-12-05T19:11:05 IST" duration-ms="12086">
-      <class name="script.ValidLogin">
-        <test-method is-config="true" signature="preCondition(java.lang.String)[pri:0, instance:script.ValidLogin@128d2484]" started-at="2024-12-05T19:10:53 IST" name="preCondition" finished-at="2024-12-05T19:11:02 IST" duration-ms="8592" status="PASS">
+    <test started-at="2024-12-05T19:35:05 IST" name="Default test" finished-at="2024-12-05T19:35:13 IST" duration-ms="8628">
+      <class name="script.InvalidLogin">
+        <test-method is-config="true" signature="preCondition(java.lang.String)[pri:0, instance:script.InvalidLogin@f9d87b]" started-at="2024-12-05T19:35:05 IST" name="preCondition" finished-at="2024-12-05T19:35:10 IST" duration-ms="4622" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -63,21 +63,21 @@
             </line>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method signature="testValidLogin()[pri:1, instance:script.ValidLogin@128d2484]" started-at="2024-12-05T19:11:02 IST" name="testValidLogin" finished-at="2024-12-05T19:11:04 IST" duration-ms="2841" status="PASS">
+        <test-method signature="testInvalidLogin()[pri:2, instance:script.InvalidLogin@f9d87b]" started-at="2024-12-05T19:35:10 IST" name="testInvalidLogin" finished-at="2024-12-05T19:35:13 IST" duration-ms="3503" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[HomePage is Displayed]]>
+              <![CDATA[Error Message is Displayed:Invalid username and/or password.]]>
             </line>
           </reporter-output>
-        </test-method> <!-- testValidLogin -->
-        <test-method is-config="true" signature="postCondition()[pri:0, instance:script.ValidLogin@128d2484]" started-at="2024-12-05T19:11:04 IST" name="postCondition" finished-at="2024-12-05T19:11:05 IST" duration-ms="550" status="PASS">
+        </test-method> <!-- testInvalidLogin -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:script.InvalidLogin@f9d87b]" started-at="2024-12-05T19:35:13 IST" name="postCondition" finished-at="2024-12-05T19:35:13 IST" duration-ms="340" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Close the browser]]>
             </line>
           </reporter-output>
         </test-method> <!-- postCondition -->
-      </class> <!-- script.ValidLogin -->
+      </class> <!-- script.InvalidLogin -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
